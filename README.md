@@ -5,10 +5,10 @@ it's all about graph algorithms
 
 1) Introduction, DFS and BFS,
 2) Graph Cycle,
-T3) opological Sorting,
+3) Topological Sorting,
 4) Minimum Spanning Tree,
 5) BackTracking,
-6) hortest Paths,
+6) Shortest Paths,
 7) Connectivity,
 8) Maximum Flow,
 9) STL Implementation of Algorithms,
