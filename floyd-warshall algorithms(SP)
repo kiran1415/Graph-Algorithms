@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+#define V 3
+using namespace std;
+ 
+void printsolve(int dist[][V]);
+void floyd(int graph[][V])
+{
+	int dist[V][V],i,j,k;
+	for( i=1 ; i<=V ; i++)
+	{
+		for( j=1 ; j<=V ; j++)
+		{
+			dist[i][j=graph[i][j];
+		}
+	}
+	for(k=1;k<=V;k++)
+		{
+			for( i=1;i<=V;i++)
+			{
+				for(k=1;K<=v;k++)
+					{
+                     if(dist[i][k]+dist[k][j]<dist[i][j])
+                     	dist[i][j]=dist[i][k]+dist[k][j];
+					}
+			}
+		}
+		printsolve(dist)
+}
+
+void printsolve(int dist[][V])
+{
+	for(i=1;i<=V;i++)
+		{
+			for(j=1;j<=V;j++)
+				{
+					cout<<dist[i][j];
+				}
+				cout<<endl;
+		}
+}
+
+ int main()
+{
+
+int graph[V][V]={
+	{1,2,3},{2,3,4},{3,4,5}
+};
+floyd(dist);
+}
